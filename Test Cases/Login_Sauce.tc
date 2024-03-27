@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login_Sauce</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>965a3227-e9b3-4230-ac08-3a211d757485</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>22ee59d3-62c6-4d76-9270-41a041587b60</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1b847866-d4a3-4a48-84ba-bed82c0aeedb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>37a80e21-138e-4167-a756-a9d61781d001</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>22ee59d3-62c6-4d76-9270-41a041587b60</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1b847866-d4a3-4a48-84ba-bed82c0aeedb</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>37a80e21-138e-4167-a756-a9d61781d001</id>
+      <masked>false</masked>
+      <name>VerifyText</name>
+   </variable>
+</TestCaseEntity>

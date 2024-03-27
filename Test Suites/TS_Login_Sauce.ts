@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_Login_Sauce</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>abeff182-d806-42a1-929f-195f4b4b754f</testSuiteGuid>
+   <testCaseLink>
+      <guid>68a52619-cf8f-4edf-8947-973061f313e9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login_Sauce_01</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>6feac6a9-7df3-495e-8923-6e945bd81773</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Login Data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>6feac6a9-7df3-495e-8923-6e945bd81773</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>fc706deb-f2c6-4fb1-b63b-c05c32b0b15e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6feac6a9-7df3-495e-8923-6e945bd81773</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>08643d92-0a7b-41d3-b0d2-6c47e8bec659</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6feac6a9-7df3-495e-8923-6e945bd81773</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>VerifyText</value>
+         <variableId>b3cec4b9-c53e-4d6e-9d28-860910138ca7</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c5eabf6a-af91-48ed-b4bb-cd230927ceec</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login_Sauce</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>22ee59d3-62c6-4d76-9270-41a041587b60</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1b847866-d4a3-4a48-84ba-bed82c0aeedb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>37a80e21-138e-4167-a756-a9d61781d001</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
